@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.app-item {
+  list-style: none;
+}
+
+.box {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 60px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  border-radius: 20px;
+  min-height: 250px;
+  width: 200px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.name {
+  font-family: bree serif;
+  font-size: 32px;
+}

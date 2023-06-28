@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.tabItem {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: transparent;
+  color: #7b8794;
+  border: none;
+  font-size: 20px;
+  margin-right: 00px;
+  cursor: pointer;
+}
+
+.line {
+  background-color: #7b8794;
+  height: 3px;
+  width: 100px;
+  align-self: center;
+  margin-right: 00px;
+}
+
+.active {
+  color: #2563eb;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.activeLine {
+  background-color: #2563eb;
+  height: 5px;
+  width: 160px;
+  align-self: center;
+}

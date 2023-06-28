@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+
+.searchBox {
+  width: 300px;
+  border-color: #1e293b;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 30px;
+}
+.search {
+  width: 220px;
+  height: 40px;
+  font-family: roboto;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.top-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: bree serif;
+  font-size: 58px;
+}
+
+.tabList-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+}
+
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
